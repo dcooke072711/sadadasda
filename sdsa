@@ -9,7 +9,7 @@ local player = players.LocalPlayer
 local categoryDragging = false
 
 local Bleachhack = {}; Bleachhack.__index = Bleachhack
-local objects = (runService:IsStudio() and game:GetService("ReplicatedStorage"):FindFirstChild("Devox") or game:GetObjects("rbxassetid://129823445873558")[1]):Clone()
+local objects = (runService:IsStudio() and game:GetService("ReplicatedStorage"):FindFirstChild("Devox") or game:GetObjects("rbxassetid://95564081595040")[1]):Clone()
 
 local IS_STUDIO = runService:IsStudio()
 local indent = " "
